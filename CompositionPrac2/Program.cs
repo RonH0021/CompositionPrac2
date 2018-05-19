@@ -14,6 +14,10 @@ namespace CompositionPrac2
 
             var human = new Human(animal, walk);
             human.HumanActivity("John");
+
+            var humanNew = new Human(animal, walk);
+            humanNew.HumanActivity("Alice");
+
         }
     }
 }
